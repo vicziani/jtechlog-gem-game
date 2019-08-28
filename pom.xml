@@ -36,7 +36,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>GemGameApplication</mainClass>
+                            <mainClass>gemgame.GemGameApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
