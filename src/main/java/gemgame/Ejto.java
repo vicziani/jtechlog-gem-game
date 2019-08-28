@@ -1,3 +1,4 @@
+package gemgame;
 
 public class Ejto extends Thread {
 

@@ -1,1 +1,4 @@
+.idea
+catalog.xml
 target
+*.iml

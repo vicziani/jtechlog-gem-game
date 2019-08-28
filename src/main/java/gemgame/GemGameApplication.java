@@ -1,3 +1,4 @@
+package gemgame;
 
 import java.awt.BorderLayout;
 import java.awt.Image;
@@ -19,8 +20,8 @@ public class GemGameApplication extends JFrame {
             }
         });
 
-        Image hatter = Toolkit.getDefaultToolkit().getImage(GemGamePanel.class.getResource("GemBack.gif"));
-        Image vesztettel = Toolkit.getDefaultToolkit().getImage(GemGamePanel.class.getResource("YouLoose.gif"));
+        Image hatter = Toolkit.getDefaultToolkit().getImage(GemGamePanel.class.getResource("/GemBack.gif"));
+        Image vesztettel = Toolkit.getDefaultToolkit().getImage(GemGamePanel.class.getResource("/YouLoose.gif"));
         panel.setHatter(hatter);
         panel.setVesztettel(vesztettel);
 
